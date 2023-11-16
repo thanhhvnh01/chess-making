@@ -1,0 +1,17 @@
+.square {
+    height: 30px;
+    width: 30px;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray ;
+    &.black {
+        background-color: #000;
+    }
+
+    &.white {
+        background-color: #fff;
+    }
+
+    &.first-item{
+        border-left: 1px solid gray ;
+    }
+}
